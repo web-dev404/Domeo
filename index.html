@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domeo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=PT+Serif:wght@700&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/otherCss/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+</head>
+
+<body>
+
+    <div class="modal">
+        <div class="modal__content">
+            <img class="modal-close-btn" src="assets/img/modal-close.svg" alt="">
+            <div class="stages__form">
+                <p class="form__title">Заполните форму, чтобы получить постоянную работу подборщиком мебели в Domeo</p>
+                <form class="form form3">
+                    <div class="form__item-div">
+                        <label for="name5">Введите ваше имя</label>
+                        <input id="name5" class="form__item form__item--name" name="name" type="text"
+                            placeholder="Например, Алексей">
+                    </div>
+
+                    <div class="form__item-div">
+                        <label for="tel5">Введите ваш телефон</label>
+                        <input id="tel5" class="form__item form__item--tel" name="tel" type="tel" placeholder=""
+                            value="+7">
+                    </div>
+
+                    <div class="form__item-div">
+                        <button class="form__item blue-btn submit" data-openedModal='true'>
+                            получить <br> постоянную работу
+                        </button>
+
+                        <p class="form__privacy-policy">Нажимая на кнопку, вы даёте согласие на обработку персональных
+                            данных и
+                            соглашаетесь c
+                            <span class="form__span">политикой конфиденциальности</span>
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-thanks">
+        <div class="modal-thanks__content">
+            <img class="modal-close-btn modal-thanks-close-btn" src="assets/img/modal-close.svg" alt="">
+            <p class="modal-thanks__text">Спасибо, скоро мы с вами свяжемся!</p>
+        </div>
+    </div>
+
+    <header class="header">
+        <div class="container">
+            <div class="menu">
+                <div class="logo-block">
+                    <a href="#"><img src="assets/img/logo.svg" alt=""></a>
+                    <p class="text-logo">Прямые работодатели для подборщиков мебели</p>
+                </div>
+                <div class="tel-block">
+                    <a href=”tel:+79998887766” class="tel">+7 (495) 662-95-23</a>
+                    <button class="order">Заказать обратный звонок</button>
+                    <img class="phone-adaptive" src="assets/img/phone-adaptive.svg" alt="">
+                </div>
+            </div>
+
+            <p class="header__h2--adaptive">Вакансия: комплектатор интерьера</p>
+            <div class="header__main">
+                <div class="header__text">
+                    <h2 class="header__h2">Вакансия: комплектатор интерьера</h2>
+                    <h3 class="header__h3">Работа с лучшими условиями в отрасли с «белой» зарплатой от 150 000 ₽ до 300
+                        000 ₽ в Domeo!</h3>
+                    <img class="header__girl--adaptive" src="assets/img/header-girl.jpg" alt="">
+
+                    <div class="header__qualities">
+                        <div class="qualities__item">
+                            <img src="assets/img/header-star.svg" alt="" class="qualities__star">
+                            <p class="qualities__title">Зарплата без задержек 2 раза в месяц</p>
+                        </div>
+                        <div class="qualities__item">
+                            <img src="assets/img/header-star.svg" alt="" class="qualities__star">
+                            <p class="qualities__title">Официальное трудоустройство</p>
+                        </div>
+                        <div class="qualities__item">
+                            <img src="assets/img/header-star.svg" alt="" class="qualities__star">
+                            <p class="qualities__title">Полный соц. пакет и возможность
+                                роста до руководителя отдела</p>
+                        </div>
+                        <div class="qualities__item">
+                            <img src="assets/img/header-star.svg" alt="" class="qualities__star">
+                            <p class="qualities__title">Работайте в своем темпе
+                                без простоя в заказах</p>
+                        </div>
+                    </div>
+
+                    <p class="header__vacations">Узнайте прямо сейчас все актуальные вакансии с белой зарплатой до 300
+                        000 ₽</p>
+                    <button class="header__vacations-btn modal-form">
+                        Узнать <br> все актуальные вакансии
+                    </button>
+                </div>
+
+                <div class="header__img">
+                    <img class="header__girl" src="assets/img/header-girl.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="section conditions">
+        <div class="container">
+            <h2 class="title">В Domeo лучшие условия для работы в сфере комплектации интерьера</h2>
+            <h3 class="subtitle">компенсируем высокие требования, лучшими условиями</h3>
+
+            <div class="conditions__main">
+                <div class="conditions__item">
+                    <div class="conditions__elem"><span class="conditions__number">01</span><img
+                            class="conditions__svg-elem" src="assets/img/conditions-elem.svg" alt=""></div>
+                    <p>Возможность работать попроектно в удобном для Вас графике</p>
+                </div>
+                <div class="conditions__item">
+                    <div class="conditions__elem"><span class="conditions__number">02</span><img
+                            class="conditions__svg-elem" src="assets/img/conditions-elem.svg" alt=""></div>
+                    <p>Нет потолка доходов. Мы хотим, чтобы вы достойно зарабатывали</p>
+                </div>
+                <div class="conditions__item">
+                    <div class="conditions__elem"><span class="conditions__number">03</span><img
+                            class="conditions__svg-elem" src="assets/img/conditions-elem.svg" alt=""></div>
+                    <p>«Белая» оплата — возможность брать кредиты или ипотеку</p>
+                </div>
+                <div class="conditions__item">
+                    <div class="conditions__elem"><span class="conditions__number">04</span><img
+                            class="conditions__svg-elem" src="assets/img/conditions-elem.svg" alt=""></div>
+                    <p>Интересные и смелые проекты для реализации творческого потенциал</p>
+                </div>
+                <div class="conditions__item">
+                    <div class="conditions__elem"><span class="conditions__number">05</span><img
+                            class="conditions__svg-elem" src="assets/img/conditions-elem.svg" alt=""></div>
+                    <p>Карьерный рост до: руководителя группы или директора департамента</p>
+                </div>
+                <div class="conditions__item">
+                    <div class="conditions__elem"><span class="conditions__number">06</span><img
+                            class="conditions__svg-elem" src="assets/img/conditions-elem.svg" alt=""></div>
+                    <p>Прямой контакт с руководством компании для решения любых вопросов</p>
+                </div>
+                <div class="conditions__item">
+                    <div class="conditions__elem"><span class="conditions__number">07</span><img
+                            class="conditions__svg-elem" src="assets/img/conditions-elem.svg" alt=""></div>
+                    <p>Особая корпоративная среда: йога по утрам, пробежки, сумасшедшие корпоративы</p>
+                </div>
+                <div class="conditions__item">
+                    <div class="conditions__elem"><span class="conditions__number">08</span><img
+                            class="conditions__svg-elem" src="assets/img/conditions-elem.svg" alt=""></div>
+                    <p>Дружный молодой коллектив. Амбициозный проект</p>
+                </div>
+
+                <div class="warning">
+                    <div class="warning__container">
+                        <img src="assets/img/warning.svg" alt="">
+                        <p>Мы понимаем, что хорошие исполнители хотят получать достойную оплату и уважительное отношение
+                            к себе и своему труду, по этому мы делаем огромные усилия для комфортных условий работы в
+                            нашей компании</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section stages">
+        <div class="container">
+            <h2 class="title">Ваша работа будет состоять из 5 этапов</h2>
+            <h3 class="subtitle">на каждом этапе вы взаимодействуете с ...</h3>
+            <div class="stages__main">
+                <div class="stages__text">
+                    <div class="stages__item">
+                        <p class="stages__number">01</p>
+                        <div class="stages__title">Получаете готовый дизайн проект квартиры</div>
+                    </div>
+                    <div class="stages__item">
+                        <p class="stages__number">02</p>
+                        <div class="stages__title">Подбираете чистовые материалы и мебель под дизайн проект исходя из
+                            пожеланий и бюджета клиента</div>
+                    </div>
+                    <div class="stages__item">
+                        <p class="stages__number">03</p>
+                        <div class="stages__title">Согласовываете ведомость материалов и мебели рекомендованными к
+                            покупке с заказчиком</div>
+                    </div>
+                    <div class="stages__item">
+                        <p class="stages__number">04</p>
+                        <div class="stages__title">Организовываете доставку на объект</div>
+                    </div>
+                    <div class="stages__item">
+                        <p class="stages__number">05</p>
+                        <div class="stages__title">Сдаёте итоговую работу</div>
+                    </div>
+                </div>
+
+                <div class="stages__img">
+                    <img src="assets/img/stages-img.jpg" alt="">
+                </div>
+
+                <div class="warning warning--stages">
+                    <div class="warning__container">
+                        <img src="assets/img/warning.svg" alt="">
+                        <p>Чем больше объектов вы укомплектовываете, тем больше вы зарабатываете</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="stages__form">
+                <p class="form__title">Заполните форму, чтобы получить постоянную работу подборщиком мебели в Domeo</p>
+                <form class="form">
+                    <div class="form__item-div">
+                        <label for="name">Введите ваше имя</label>
+                        <input id="name" class="form__item form__item--name" name="name" type="text"
+                            placeholder="Например, Алексей">
+                    </div>
+
+                    <div class="form__item-div">
+                        <label for="tel">Введите ваш телефон</label>
+                        <input id="tel" class="form__item form__item--tel" name="tel" type="tel" placeholder=""
+                            value="+7">
+                    </div>
+
+                    <div class="form__item-div">
+                        <button class="form__item blue-btn submit">
+                            получить <br> постоянную работу
+                        </button>
+
+                        <p class="form__privacy-policy">Нажимая на кнопку, вы даёте согласие на обработку персональных
+                            данных и
+                            соглашаетесь c
+                            <span class="form__span">политикой конфиденциальности</span>
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="section salary">
+        <div class="container">
+            <h2 class="title">Рассчитайте вашу будущую зарплату в Domeo</h2>
+            <h3 class="subtitle">ответьте на 2 ключевых вопроса по, которым мы определим вашу точную зарплату</h3>
+            <div class="salary__main">
+                <div class="salary__item active-questions salary__item1">
+                    <div class="salary__title">Сколько объектов вы готовы укомплектовывать в месяц?</div>
+                    <div class="salary__subtitle">в выбранной ранее специализации</div>
+
+                    <div class="salary__radios">
+                        <div class="radios__item">
+                            <input class="radios__radio" checked id="radio-1" type="radio" name="radio1" value="1">
+                            <label for="radio-1">1-5</label>
+                        </div>
+                        <div class="radios__item">
+                            <input class="radios__radio" id="radio-2" type="radio" name="radio1" value="2">
+                            <label for="radio-2">5-10</label>
+                        </div>
+                        <div class="radios__item">
+                            <input class="radios__radio" id="radio-3" type="radio" name="radio1" value="3">
+                            <label for="radio-3">Более 10</label>
+                        </div>
+                    </div>
+
+                    <button class="salary__btn salary__btn-next">
+                        далее
+                    </button>
+                </div>
+
+                <div class="salary__item salary__item2">
+                    <div class="salary__title">Сколько у вас лет опыта?</div>
+                    <div class="salary__subtitle">в комплектации мебели</div>
+
+                    <div class="salary__radios">
+                        <div class="radios__item">
+                            <input class="radios__radio" checked id="radio-1" type="radio" name="radio2" value="1">
+                            <label for="radio-1">До 1 года</label>
+                        </div>
+                        <div class="radios__item">
+                            <input class="radios__radio" id="radio-2" type="radio" name="radio2" value="2">
+                            <label for="radio-2">От 2 до 3 лет</label>
+                        </div>
+                        <div class="radios__item">
+                            <input class="radios__radio" id="radio-3" type="radio" name="radio2" value="3">
+                            <label for="radio-3">От 3 и более</label>
+                        </div>
+                    </div>
+
+                    <div class="salary__btns">
+                        <button class="salary__btn salary__btn--transparent salary__btn-back">
+                            назад
+                        </button>
+
+                        <button class="salary__btn salary__btn-next">
+                            далее
+                        </button>
+                    </div>
+                </div>
+
+                <div class="salary__item salary__item3">
+                    <div class="salary__title">Сколько объектов вы укомплектовали?</div>
+                    <div class="salary__subtitle">в выбранной ранее специализации</div>
+
+                    <div class="salary__radios">
+                        <div class="radios__item">
+                            <input class="radios__radio" checked id="radio-1" type="radio" name="radio3" value="1">
+                            <label for="radio-1">От 1 до 10</label>
+                        </div>
+                        <div class="radios__item">
+                            <input class="radios__radio" id="radio-2" type="radio" name="radio3" value="2">
+                            <label for="radio-2">От 10 до 50</label>
+                        </div>
+                        <div class="radios__item">
+                            <input class="radios__radio" id="radio-3" type="radio" name="radio3" value="3">
+                            <label for="radio-3">Более 50</label>
+                        </div>
+                    </div>
+
+                    <div class="salary__btns">
+                        <button class="salary__btn salary__btn--transparent salary__btn-back">
+                            назад
+                        </button>
+
+                        <button class="salary__btn salary__btn-next">
+                            далее
+                        </button>
+                    </div>
+                </div>
+
+                <div class="salary__item salary__item4">
+                    <div class="salary__title">Остался последний шаг</div>
+                    <div class="salary__subtitle">заполните форму для расчет вашей будущей зарплаты</div>
+
+                    <form class="form">
+                        <div class="form__item-div">
+                            <label for="name2">Введите ваше имя</label>
+                            <input id="name2" class="form__item form__item--name" name="name" type="text"
+                                placeholder="Например, Алексей">
+                        </div>
+
+                        <div class="form__item-div">
+                            <label for="tel2">Введите ваш телефон</label>
+                            <input id="tel2" class="form__item form__item--tel" name="tel" type="tel" placeholder=""
+                                value="+7">
+                        </div>
+
+                        <div class="form__item-div">
+                            <button class="form__item blue-btn submit">
+                                расчитать <br> заработную плату
+                            </button>
+
+                            <p class="form__privacy-policy">Нажимая на кнопку, вы даёте согласие на обработку
+                                персональных
+                                данных и
+                                соглашаетесь c
+                                <span class="form__span">политикой конфиденциальности</span>
+                            </p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section get-job">
+        <div class="container">
+            <h2 class="title">Устройтесь на работу вашей мечты за 4 шага</h2>
+            <h3 class="subtitle">самое главное начать, ведь места ограничены</h3>
+
+            <div class="get-job__main">
+                <div class="get-job__item">
+                    <div class="get-job__number">
+                        01
+                    </div>
+
+                    <div class="get-job__text">
+                        <p>Отправьте заявку на сайте</p>
+                        <img src="assets/img/get-job-icon1.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="get-job__item">
+                    <div class="get-job__number">
+                        02
+                    </div>
+
+                    <div class="get-job__text">
+                        <p>Пройдите собеседование по телефону</p>
+                        <img src="assets/img/get-job-icon2.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="get-job__item">
+                    <div class="get-job__number">
+                        03
+                    </div>
+
+                    <div class="get-job__text">
+                        <p>Пройдите собеседование в офисе</p>
+                        <img src="assets/img/get-job-icon3.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="get-job__item">
+                    <div class="get-job__number">
+                        04
+                    </div>
+
+                    <div class="get-job__text">
+                        <p>Приступите к работе в Domeo</p>
+                        <img src="assets/img/get-job-icon4.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section honesty">
+        <div class="container">
+            <h2 class="title">Честность — краеугольный камень общения</h2>
+            <h3 class="subtitle">Не обманываем с зарплатой и другими договоренностями</h3>
+
+            <div class="honesty__main">
+                <div class="honesty__video">
+                    <div class="honesty__title">
+                        <img src="assets/img/video-title.svg" alt="">
+                        Узнайте больше о компании Domeo за 1 минуту
+                    </div>
+
+                    <div class="video__preview">
+                        <div class="video__btn">
+                            <img src="assets/img/video-btn.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="honesty__text">
+                    <p class="honesty__p">Domeo работает с 2010 года.</p>
+                    <p class="honesty__p">За это время мы создали бизнес-структуру, которая работает как дорогие
+                        швейцарские часы.</p>
+                    <p class="honesty__p">
+                        Секрет нашего успеха в лучших условиях и высокой зарплате для лучших сотрудников, в честности и
+                        прозрачности с людьми.
+                    </p>
+                    <p class="honesty__p">Мы ценим сотрудников с большим опытом, а также создаём все условия для
+                        качественной работы.</p>
+                    <p class="honesty__p honesty__p--last">Присоединяйтесь к нам прямо сейчас!</p>
+
+                    <button class="blue-btn honesty__btn modal-form">Присоединиться к Domeo</button>
+                </div>
+
+                <div class="warning warning--honesty">
+                    <div class="warning__container">
+                        <img src="assets/img/warning.svg" alt="">
+                        <p>Мы ищем людей на постоянную работу. Нам нужны мастера для сотрудничества на долгие годы</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section make-appointment">
+        <div class="container">
+            <h2 class="title">Запишитесь прямо сейчас на онлайн собеседование</h2>
+            <h3 class="subtitle">мы перезвоним вам с уточняющими вопросами в течении 30 минут после заявки</h3>
+
+            <div class="make-appointment__main">
+                <div class="make-appointment__text">
+                    <p class="make-appointment__title">Во время собеседования мы уточним:</p>
+
+                    <div class="make-appointment__questions">
+                        <img src="assets/img/make-appointment-icon.svg" alt="">
+                        <p class="questions__item">Какие проекты для вас предпочтительны территориально?</p>
+                    </div>
+
+                    <div class="make-appointment__questions">
+                        <img src="assets/img/make-appointment-icon.svg" alt="">
+                        <p class="questions__item">Какой у вас опыт в сфере комплектации/дизайна интерьера?</p>
+                    </div>
+
+                    <div class="make-appointment__questions">
+                        <img src="assets/img/make-appointment-icon.svg" alt="">
+                        <p class="questions__item">Желаемый уровень загрузки?</p>
+                    </div>
+
+                    <div class="warning warning2">
+                        <div class="warning__container">
+                            <img src="assets/img/warning.svg" alt="">
+                            <p>Если вас устроят все условия работы,
+                                вы можете приступить к работе на следующий день</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="make-appointment__form">
+                    <form class="form2">
+                        <p class="form__title form__title2">Заполните форму, чтобы записаться на онлайн собеседование
+                        </p>
+                        <div class="form__item-div">
+                            <label for="name3">Введите ваше имя</label>
+                            <input id="name3" class="form__item form__item--name form__item--name2" name="name"
+                                type="text" placeholder="Например, Алексей">
+                        </div>
+
+                        <div class="form__item-div">
+                            <label for="tel3">Введите ваш телефон</label>
+                            <input id="tel3" class="form__item form__item--tel form__item--tel2" name="tel" type="tel"
+                                placeholder="" value="+7">
+                        </div>
+
+                        <div class="form__item-div">
+                            <button class="form__item blue-btn form__btn2 submit">
+                                записаться <br> на собеседование
+                            </button>
+
+                            <p class="form__privacy-policy">Нажимая на кнопку, вы даёте согласие на обработку
+                                персональных
+                                данных и
+                                соглашаетесь c
+                                <span class="form__span">политикой конфиденциальности</span>
+                            </p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section come-office">
+        <div class="container">
+            <h2 class="title">Вы всегда можете придти к нам в офисдля личного знакомства</h2>
+            <h3 class="subtitle">мы с радостью вас встретим и обсудим условия работы</h3>
+
+            <div class="come-office__main">
+                <div class="come-office__form">
+                    <form class="form2">
+                        <p class="form__title form__title2">Заполните форму, чтобы записаться на прием в офисе
+                        </p>
+                        <div class="form__item-div">
+                            <label for="name4">Введите ваше имя</label>
+                            <input id="name4" class="form__item form__item--name form__item--name2" name="name"
+                                type="text" placeholder="Например, Алексей">
+                        </div>
+
+                        <div class="form__item-div">
+                            <label for="tel4">Введите ваш телефон</label>
+                            <input id="tel4" class="form__item form__item--tel form__item--tel2" name="tel" type="tel"
+                                placeholder="" value="+7">
+                        </div>
+
+                        <div class="form__item-div">
+                            <button class="form__item blue-btn form__btn2 submit">
+                                Посетить офис
+                            </button>
+
+                            <p class="form__privacy-policy">Нажимая на кнопку, вы даёте согласие на обработку
+                                персональных
+                                данных и
+                                соглашаетесь c
+                                <span class="form__span">политикой конфиденциальности</span>
+                            </p>
+                        </div>
+                    </form>
+
+                    <div class="warning3">
+                        <div class="warning3__item">
+                            <p class="warning3__title">Адрес офиса:</p>
+                            <p class="warning3__text">г. Москва, ул. Лужнецкая наб. 2/4 стр. 17, офис 308</p>
+                        </div>
+
+                        <div class="warning3__item">
+                            <p class="warning3__title">Контакты:</p>
+                            <p class="warning3__text">8 (495) 126-24-89 info@domeo.ru</p>
+                        </div>
+
+                        <div class="warning3__item">
+                            <p class="warning3__title">График работы:</p>
+                            <p class="warning3__text">С 9.00 до 22.00 без выходных</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="come-office__img">
+                    <iframe class="come-office__map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d871.7064763334139!2d-105.80052864345596!3d39.37751396395616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876ae2b7323e68f5%3A0x57955bb77899229a!2sJefferson%20Market!5e0!3m2!1sru!2s!4v1625056787171!5m2!1sru!2s"
+                        style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="menu menu--footer">
+                <div class="logo-block">
+                    <a href="#"><img src="assets/img/logo.svg" alt=""></a>
+                    <p class="text-logo">Прямые работодатели для подборщиков мебели</p>
+                </div>
+                <div class="tel-block">
+                    <p class="tel">+7 (495) 662-95-23</p>
+                    <button class="order">Заказать обратный звонок</button>
+                    <img class="phone-adaptive" src="assets/img/phone-adaptive.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/app.min.js"></script>
+</body>
+
+</html>
